@@ -9,7 +9,7 @@ import todoReducer from './reducers'
 
 const store = createStore(
   todoReducer,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  window.STATE_FROM_SERVER
 );
 
 ReactDOM.render(
